@@ -1,3 +1,4 @@
+import { Navbar } from "../components/Navbar";
 import { NoiseBackground } from "../components/NoiseBackground";
 import { ThemeToggle } from "../components/ThemeToggle";
 
@@ -9,6 +10,7 @@ export const Home = () => {
       {/* Background Effect */}
       <NoiseBackground />
       {/* Navbar */}
+      {<Navbar />}
       {/* Main Content */}
       {/* Footer */}
     </div>
