@@ -1,3 +1,4 @@
+import { AboutSection } from "../components/AboutSection";
 import { HeroSection } from "../components/HeroSection";
 import { Navbar } from "../components/Navbar";
 import { NoiseBackground } from "../components/NoiseBackground";
@@ -16,6 +17,7 @@ export const Home = () => {
 
       <main>
         <HeroSection/>
+        <AboutSection/>
       </main>
 
       {/* Footer */}
