@@ -8,9 +8,9 @@ const projects = [
     title: "Restaurant Website",
     description:
       "A restaurant website that allows users to view the menu, make reservations, and order food online built using Laravel",
-    image: placeholderImage,
+    image: "/projects/project1.png",
     tags: ["Laravel", "PHP", "MySQL"],
-    github: "#",
+    github: "https://github.com/prajwolk09/Restaurant-Reservation",
   },
   {
     id: 2,
