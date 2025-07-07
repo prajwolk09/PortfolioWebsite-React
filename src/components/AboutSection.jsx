@@ -13,7 +13,7 @@ const expertise = [
     id: 2,
     title: "Backend Development",
     description:
-      "Creating robust server-side applications with technologies like Laravel, PHP, and MySQL, ensuring secure and scalable APIs and databases.",
+      "Creating robust server-side applications with technologies like Laravel, PHP, Python, Django and MySQL, ensuring secure and scalable APIs and databases.",
     icon: Briefcase,
   },
   {
@@ -73,8 +73,8 @@ export const AboutSection = () => {
               creating user-friendly interfaces and robust server-side systems.
             </p>
             <p className="text-muted-foreground text-sm md:text-base">
-              With a strong foundation in technologies like React, Laravel, and
-              Python, I enjoy tackling complex challenges, from building responsive
+              With a strong foundation in technologies like Python, Django, Php, Laravel, and React, 
+              I enjoy tackling complex challenges, from building responsive
               websites to developing AI-driven applications like emotion-based
               music recommendation systems. My goal is to deliver seamless,
               impactful digital experiences.
