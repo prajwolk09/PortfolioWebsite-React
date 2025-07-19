@@ -12,7 +12,6 @@ const skills = [
     { name: "React",category: "framework/library" },
     { name: "MySQL",category: "backend" },
     { name: "Java",category: "backend" },
-    { name: "Kotlin",category: "framework/library" },
     { name: "C#",category: "backend" },
     { name: "C++",category: "backend" },
     { name: "Next.js",category: "framework/library" },
