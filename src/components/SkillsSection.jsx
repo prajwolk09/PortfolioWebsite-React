@@ -28,13 +28,13 @@ const skills = [
     { name: "Leadership",category: "soft skills" },
 ];
 
-const categories = ['all', 'frontend', 'backend', 'framework/library', 'tools', 'soft skills'];
+const categories = ['backend', 'frontend', 'framework/library', 'tools', 'soft skills'];
 
 export const SkillsSection = () => {
-  const [activeCategory, setActiveCategory] = useState('all');
+  const [activeCategory, setActiveCategory] = useState('backend');
 
   const filteredSkills = skills.filter(
-    (skill) => activeCategory === 'all' || skill.category === activeCategory
+    (skill) => skill.category === activeCategory
   );
 
   return (
